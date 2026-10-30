@@ -30,6 +30,10 @@ public class Pilha<T> {
         }
     }
 
+    public T getTopo() {
+        return topo.item;
+    }
+
     public int size(){
         return size;
     }
